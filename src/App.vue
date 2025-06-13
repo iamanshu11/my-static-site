@@ -6,7 +6,7 @@ import Footer from './components/Footer.vue'
 <template>
   <Header />
 
-  <main class="content">
+  <main class="content pt-16">
     <RouterView />
   </main>
 
@@ -15,7 +15,6 @@ import Footer from './components/Footer.vue'
 
 <style scoped>
 .content {
-  min-height: calc(100vh - 120px); /* adjust based on header/footer height */
-  padding: 1rem;
+  min-height: calc(100vh - 264px); /* Adjusted for fixed header (64px) and estimated footer height (200px) */
 }
 </style>

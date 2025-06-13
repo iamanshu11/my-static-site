@@ -8,7 +8,8 @@ export default defineConfig({
   ssgOptions: {
     script: 'async',
     formatting: 'minify',
-    includedRoutes: () => ['/', '/about', '/industries']
-  }
+    includedRoutes: () => ['/', '/privacy-policy', '/terms-conditions', '/user-agreement', '/cookie-policy' ]
+  },
+  base: '/'
 })
 
